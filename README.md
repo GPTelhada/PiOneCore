@@ -21,5 +21,33 @@ Approximates Pi using the Leibniz series on Arduino. Runs x iterations, prints t
 3. Prints the time taken, approximated Pi, true Pi, and relative error to the Serial Monitor.
 
 ## Performance Results
-- **Arduino Uno (8bit - 16MHz)**
-Time Relative Error 1'000 -> 43ms 0.031836% 10'000 -> 430ms 0.002998% 100'000 -> 4318ms 0.000220% 1'000'000 -> 43437ms 0.000083%
+
+### Arduino Uno (8bit - 16MHz)
+| Iterations | Time   | Relative Error |
+|------------|--------|----------------|
+| 1'000      | 43ms   | 0.031836%      |
+| 10'000     | 430ms  | 0.002998%      |
+| 100'000    | 4318ms | 0.000220%      |
+| 1'000'000  | 43437ms| 0.000083%      |
+
+### ESP32 C3 (32bit - 160MHz)
+| Iterations | Time   | Relative Error |
+|------------|--------|----------------|
+| 1'000      | 4ms    | 0.031831%      |
+| 10'000     | 37ms   | 0.003183%      |
+| 100'000    | 373ms  | 0.000318%      |
+| 1'000'000  | 3747ms | 0.000032%      |
+
+### ESP32 S3 (32bit - 240MHz)
+| Iterations | Time   | Relative Error |
+|------------|--------|----------------|
+| 1'000      | 3ms    | 0.031831%      |
+| 10'000     | 29ms   | 0.003183%      |
+| 100'000    | 289ms  | 0.000318%      |
+| 1'000'000  | 2886ms | 0.000032%      |
+
+## Example Output
+Time taken: 3753 ms
+Approximated Pi value: 3.1415917
+The real value of pi: 3.1415927
+Relative Error: 0.000032 %
