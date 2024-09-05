@@ -1,5 +1,5 @@
 # PiOneCore
-Approximates Pi using the Leibniz series on Arduino. Runs x iterations, prints the time taken, the approximated Pi value with 7 decimal places, and the relative error compared to the true Pi value. Ideal for performance benchmarking and educational purposes. Compatible with various microcontrollers.
+Approximates Pi using the Leibniz series on Arduino. Runs a configurable amount of iterations, prints the time taken, the approximated Pi value with 7 decimal places, and the relative error compared to the true Pi value. Ideal for performance benchmarking and educational purposes. Compatible with various microcontrollers.
 
 ## Features
 - **Leibniz Series Calculation**: Uses the alternating series formula to approximate Pi.
