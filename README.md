@@ -20,6 +20,14 @@ Approximates Pi using the Leibniz series on Arduino. Runs x iterations, prints t
 2. Performs Pi calculation using one million iterations.
 3. Prints the time taken, approximated Pi, true Pi, and relative error to the Serial Monitor.
 
+## Example Output   
+Single-Core Pi Calculation<br>
+Time taken: 3753 ms<br>
+Approximated Pi value: 3.1415917<br>
+The real value of pi: 3.1415927<br>
+Relative Error: 0.000032 %
+
+
 ## Performance Results
 
 ### Arduino Uno (8bit - 16MHz)
@@ -46,9 +54,3 @@ Approximates Pi using the Leibniz series on Arduino. Runs x iterations, prints t
 | 100'000    | 289ms  | 0.000318%      |
 | 1'000'000  | 2886ms | 0.000032%      |
 
-## Example Output   
-Single-Core Pi Calculation<br>
-Time taken: 3753 ms<br>
-Approximated Pi value: 3.1415917<br>
-The real value of pi: 3.1415927<br>
-Relative Error: 0.000032 %
